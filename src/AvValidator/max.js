@@ -1,5 +1,5 @@
 import toNumber from 'lodash/toNumber';
-import { isEmpty, isoDateFormat } from './utils';
+import { isEmpty } from './utils';
 import maxchecked from './maxchecked';
 
 export default function validate(value, context, constraint = {}, input = {}) {

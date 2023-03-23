@@ -1,6 +1,5 @@
-import moment from 'moment';
 import toNumber from 'lodash/toNumber';
-import { isEmpty, isoDateFormat } from './utils';
+import { isEmpty } from './utils';
 import minchecked from './minchecked';
 
 export default function validate(value, context, constraint = {}, input = {}) {
