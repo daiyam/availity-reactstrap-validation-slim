@@ -235,6 +235,10 @@ export default class AvForm extends InputContainer {
       return values;
     }, {});
   }
+  
+  getInputs() {
+    return this._inputs;
+  }
 
   submit(...args) {
     this.handleSubmit(...args);
