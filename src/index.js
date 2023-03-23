@@ -11,12 +11,10 @@ import AvValidator from './AvValidator';
 
 export {
   AvCheckbox,
-  AvCheckboxGroup,
   AvFeedback,
   AvField,
   AvForm,
   AvGroup,
-  AvRadioGroup,
   AvRadio,
   AvInput,
   AvBaseInput,
